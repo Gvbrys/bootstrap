@@ -4,18 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Bootstrap</title>
 </head>
 <body>
- 
+    <div class="container mt-3">
+        <div class="text-bg-primary p-3">Ten tekst jest ważny.</div>
+        <div class="text-bg-success p-3">Ten tekst oznacza sukces.</div>
+        <div class="text-bg-info p-3">Ten tekst jest informacyjny.</div>
+        <div class="text-bg-warning p-3">Ten tekst jest ostrzegawczy.</div>
+        <div class="text-bg-danger p-3">Ten tekst oznacza zagrożenie.</div>
+    </div>
 
-      <div class="container mt-3">
-      <div class="text-bg-primary p-3">Ten tekst jest ważny.</div>
-      <div class="text-bg-success p-3">Ten tekst ozancza sukces.</div>
-      <div class="text-bg-info p-3">Ten tekst jest informacyjny. </div>
-      <div class="text-bg-warning p-3">Ten tekst jest ostrzegawczy.</div>
-      <div class="text-bg-danger p-3">Ten tekst oznacza zagrożenie.</div>
+    <div class="container mt-3">
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Produkt</th>
+                    <th>Cena</th>
+                    <th>Ilość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kingston RAM DDR4 8GB</td>
+                    <td>2 miliony monet</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Bomba dymna</td>
+                    <td>$2.40</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Pierogi ruskie</td>
+                    <td>$3.00</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+                <img src="kiji.png" class="img-fluid img-thumbnail rounded" width="250" height="250" alt="Opis obrazka 1">
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <img src="kiji.png" class="img-fluid img-thumbnail rounded" width="250" height="250" alt="Opis obrazka 2">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="mt-4 p-5 bg-dark text-white rounded">
+            <h1>Jumbotron</h1>
+            <p>Witaj na mojej stronie internetowej</p>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+            <div class="alert alert-success">
+                <strong>Sukces!</strong> Ten alert oznacza sukces.
+            </div>
+            <div class="alert alert-warning">
+            <strong>Ostrzeżenie!</strong> Ten alert jest ostrzeżeniem.
+        </div>
+        <div class="alert alert-danger">
+            <strong>Zagrożenie!</strong> Ten alert jest zagrożeniem.
+        </div>
+    </div>
+
+    <div class="container mt-3">
+      <button type="button" class="btn btn-primary btn-lg">Duży przycisk</button>
+      <button type="button" class="btn btn-primary btn-md">Podstawowy przycisk</button>    
+      <button type="button" class="btn btn-primary btn-sm">Mały przycisk</button>
+    </div>
+
+    <div class="container mt-3">
+    <div class="btn-group btn-group-lg">
+      <button type="button" class="btn btn-primary">To</button>
+      <button type="button" class="btn btn-primary">Duża</button>
+      <button type="button" class="btn btn-primary">Grupa</button>
+    </div>
+  </div>
+
+
+  <div class="container mt-3">
+  <h3><span class="badge bg-success">Sukces mały</span></h3>
+  <h2><span class="badge bg-danger">Zagrożenie średni</span></h2>
+  <h1><span class="badge bg-warning">Ostrzeżenie duży </span></h1>
 </div>
+
+
+<div class="container mt-3">
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <div class="progress">
+    <div class="progress-bar bg-warning" style="width:90%"></div>
+ </div>
+ <div class="progress">
+  <div class="progress-bar bg-success" style="width:30%"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar bg-info" style="width:60%"></div>
+</div>
+</div>
+
+<div class="container mt-3">
+  <div class="spinner-border text-primary"></div>
+  <div class="spinner-border text-danger"></div>
+  <div class="spinner-border spinner-border-sm"></div>
+</div>
+
+<div class="container mt-3">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Wstecz</a></li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Następny</a></li>
+  </ul>
+</div>
+
+
 
 </body>
 </html>
